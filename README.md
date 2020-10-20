@@ -11,11 +11,11 @@ Improve your professional & Personal life satisfaction. Organize your to do task
 
 - **404** - user warning that the page doesn’t exist 
 
-- ##500** - user warning that something in the page isn’t working
+- **500** - user warning that something in the page isn’t working
 
-- ##homepage** -  Access the root to create the next To do list
+- **homepage** -  Access the root to create the next To do list
 
-- ##hsign up** - Access all the available features of the website login - log in to personal account
+- **hsign up** - Access all the available features of the website login - log in to personal account
 
 - **logout** - log out from personal account to main page 
 
