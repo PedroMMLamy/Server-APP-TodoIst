@@ -101,8 +101,6 @@ HTML
 
 
 # Models:
-
-
 -``` To Do Model: 
  
 const mongoose = require("mongoose");
