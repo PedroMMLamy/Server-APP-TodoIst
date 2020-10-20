@@ -39,31 +39,36 @@ Other features besides the mvp scope:
 Task Category (Professional/Personal)
 
 Routes:
-<Route
+
+- <Route
             exact
             path='/'
             render={(props) => <Home {...props}  setUser={this.setUser} />}
             render={(props) => <Home {...props}  setUser={this.setUser} todos={this.state.todos} toggleTodoDone={this.toggleTodoDone} removeTodo={this.removeTodo} />}
           />
-          <Route
+
+-   <Route
             path='/signup'
             render={(props) => <Signup {...props} setUser={this.setUser} />}
           />
-          <Route
+ -  <Route
             path='/login'
             render={(props) => <Login {...props} setUser={this.setUser}/>}
           />
-          <Route
+      
+      
+   -  <Route
             path='/todos'
             render={(props) => <Todos {...props} setUser={this.setUser}  newTodoChanged={this.newTodoChanged} formSubmitted={this.formSubmitted} toggleTodoDone={this.toggleTodoDone} removeTodo={this.removeTodo} allDone={this.allDone} todos={this.state.todos} newTodo={this.state.newTodo} />}
           />
-          <Route
+      
+  -   <Route
             path='/user'
             render={(props) => <CurrentUser {...props} setUser={this.setUser}/>}
           />
           
           
-          <Route render={() => <h2>404</h2>} />
+       -   <Route render={() => <h2>404</h2>} />
         </Switch>
         {/* <Todos 
           additem={this.addItem} 
@@ -73,7 +78,9 @@ Routes:
     );
   }
 }
-/*          <Route
+/*   
+
+- <Route
             path='/'
             render={(props) => <Home {...props} setUser={this.setUser} />}
           />
