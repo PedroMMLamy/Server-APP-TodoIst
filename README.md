@@ -57,7 +57,7 @@ Routes:
           />
       
       
-   -  <Route
+  -  <Route
             path='/todos'
             render={(props) => <Todos {...props} setUser={this.setUser}  newTodoChanged={this.newTodoChanged} formSubmitted={this.formSubmitted} toggleTodoDone={this.toggleTodoDone} removeTodo={this.removeTodo} allDone={this.allDone} todos={this.state.todos} newTodo={this.state.newTodo} />}
           />
@@ -68,7 +68,7 @@ Routes:
           />
           
           
-       -   <Route render={() => <h2>404</h2>} />
+  -   <Route render={() => <h2>404</h2>} />
         </Switch>
         {/* <Todos 
           additem={this.addItem} 
