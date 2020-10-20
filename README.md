@@ -1,10 +1,10 @@
 # Server-APP-TodoIst
-Server APP TodoIst - Project 3 Repository II
+# Server APP TodoIst - Project 3 Repository II
 
-TODOIST - Read Me - Client
+# TODOIST - Read Me - Client
 
 
-Description
+# Description
 Improve your professional & Personal life satisfaction. Organize your to do tasks in an easy and clear way to simplify your daily routine.
 User Stories
 404 - user warning that the page doesn’t exist 
@@ -21,7 +21,7 @@ profile - personal list of To do’s
 other profiles - other users personal list of To do’s
 
 
-Backlog
+# Backlog
 Other features besides the mvp scope:
 . Task Category (Professional/Personal)
 
@@ -73,7 +73,7 @@ Routes:
             render={(props) => <Login {...props} setUser={this.setUser}/>}
           />*/
 
-Frontend
+# Frontend
 Homepage
 CSS
 HTML
@@ -83,7 +83,7 @@ HTML
 
 
 
-Models
+# Models
 
 To Do Model:
 const mongoose = require("mongoose");
@@ -114,11 +114,11 @@ const User = mongoose.model('User', userSchema);
 module.exports = User;
 
 
-Links
+# Links
 
 Trello
 Trello board
 
-Git
+# Git
 Server Repository Link
 Client Repository Link
