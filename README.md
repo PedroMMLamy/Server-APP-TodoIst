@@ -40,8 +40,58 @@ Task Category (Professional/Personal)
 
 ## Routes:
 
+- <Route
+            exact
+            path='/'
+            render={(props) => <Home {...props}  setUser={this.setUser} />}
+            render={(props) => <Home {...props}  setUser={this.setUser} todos={this.state.todos} toggleTodoDone={this.toggleTodoDone} removeTodo={this.removeTodo} />}
+          />
 
+-   <Route
+            path='/signup'
+            render={(props) => <Signup {...props} setUser={this.setUser} />}
+          />
+ -  <Route
+            path='/login'
+            render={(props) => <Login {...props} setUser={this.setUser}/>}
+          />
+      
+      
+  -  <Route
+            path='/todos'
+            render={(props) => <Todos {...props} setUser={this.setUser}  newTodoChanged={this.newTodoChanged} formSubmitted={this.formSubmitted} toggleTodoDone={this.toggleTodoDone} removeTodo={this.removeTodo} allDone={this.allDone} todos={this.state.todos} newTodo={this.state.newTodo} />}
+          />
+      
+  -   <Route
+            path='/user'
+            render={(props) => <CurrentUser {...props} setUser={this.setUser}/>}
+          />
+          
+          
+  -   <Route render={() => <h2> 404 </h2>} />
+        </Switch>
+        {/ <Todos 
+          additem={this.addItem} 
+          inputElement={this.inputElement}
+        />}
+      </div>
+    );
+  }
+}
+ 
 
+- <Route
+            path='/'
+            render={(props) => <Home {...props} setUser={this.setUser} />}
+          />
+          <Route
+            path='/signup'
+            render={(props) => <Signup {...props} setUser={this.setUser} />}
+          />
+          <Route
+            path='/login'
+            render={(props) => <Login {...props} setUser={this.setUser}/>}
+          />*/
           
 
 # Frontend:
@@ -51,6 +101,7 @@ Task Category (Professional/Personal)
 
 
 # Models:
+
 -``` To Do Model: 
  
 const mongoose = require("mongoose");
@@ -61,6 +112,7 @@ const Todo = mongoose.Schema({
 });
 module.exports = mongoose.model("Todo", Todo);
 ```
+
 
 - ``` User Model:
 const mongoose = require('mongoose');
