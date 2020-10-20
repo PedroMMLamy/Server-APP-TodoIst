@@ -1,24 +1,37 @@
 # Server-APP-TodoIst
 # Server APP TodoIst - Project 3 Repository II
 
-# TODOIST - Read Me - Client
+**TODOIST - Read Me - Client**
 
 
 # Description
 Improve your professional & Personal life satisfaction. Organize your to do tasks in an easy and clear way to simplify your daily routine.
-User Stories
-404 - user warning that the page doesn’t exist 
-500 - user warning that something in the page isn’t working
-homepage - Access the root to create the next To do list
-sign up - Access all the available features of the website login - log in to personal account
-logout - log out from personal account to main page 
-To do list - All the created todo´s 
-create To do - create a new To do 
-edit To do - edit a created To do 
-To do - written details of a task
-Delete To do - delete a task
-profile - personal list of To do’s
-other profiles - other users personal list of To do’s
+
+##User Stories
+
+- **404** - user warning that the page doesn’t exist 
+
+- ##500** - user warning that something in the page isn’t working
+
+- ##homepage** -  Access the root to create the next To do list
+
+- ##hsign up** - Access all the available features of the website login - log in to personal account
+
+- **logout** - log out from personal account to main page 
+
+- **To do list** - All the created todo´s 
+
+- **create To do** - create a new To do 
+
+- **edit To do ** - edit a created To do 
+
+- **To do** - written details of a task
+
+- **Delete To do** - delete a task
+
+- **profile** - personal list of To do’s
+
+- **other profiles** - other users personal list of To do’s
 
 
 # Backlog
@@ -79,10 +92,6 @@ CSS
 HTML
 
 
-
-
-
-
 # Models
 
 To Do Model:
@@ -96,7 +105,7 @@ module.exports = mongoose.model("Todo", Todo);
 
 
 
-User Model:
+## User Model:
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
