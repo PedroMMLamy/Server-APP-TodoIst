@@ -36,7 +36,7 @@ Improve your professional & Personal life satisfaction. Organize your to do task
 
 # Backlog:
 Other features besides the mvp scope:
-. Task Category (Professional/Personal)
+Task Category (Professional/Personal)
 
 Routes:
 <Route
