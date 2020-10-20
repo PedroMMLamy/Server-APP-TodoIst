@@ -23,7 +23,7 @@ Improve your professional & Personal life satisfaction. Organize your to do task
 
 - **create To do** - create a new To do 
 
-- **edit To do ** - edit a created To do 
+- **edit To do** - edit a created To do 
 
 - **To do** - written details of a task
 
