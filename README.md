@@ -7,7 +7,7 @@
 # Description
 Improve your professional & Personal life satisfaction. Organize your to do tasks in an easy and clear way to simplify your daily routine.
 
-##User Stories
+## User Stories
 
 - **404** - user warning that the page doesn’t exist 
 
