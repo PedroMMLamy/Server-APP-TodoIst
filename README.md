@@ -15,7 +15,7 @@ Improve your professional & Personal life satisfaction. Organize your to do task
 
 - **homepage** -  Access the root to create the next To do list
 
-- **hsign up** - Access all the available features of the website login - log in to personal account
+- **sign up** - Access all the available features of the website login - log in to personal account
 
 - **logout** - log out from personal account to main page 
 
@@ -38,7 +38,7 @@ Improve your professional & Personal life satisfaction. Organize your to do task
 Other features besides the mvp scope:
 Task Category (Professional/Personal)
 
-Routes:
+## Routes:
 
 - <Route
             exact
