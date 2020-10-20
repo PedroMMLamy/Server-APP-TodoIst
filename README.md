@@ -95,9 +95,9 @@ Task Category (Professional/Personal)
           
 
 # Frontend:
-Homepage
-CSS
-HTML
+- Homepage
+- CSS
+- HTML
 
 
 # Models:
