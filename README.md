@@ -70,15 +70,15 @@ Routes:
           
   -   <Route render={() => <h2>404</h2>} />
         </Switch>
-        {/* <Todos 
+        {/ <Todos 
           additem={this.addItem} 
           inputElement={this.inputElement}
-        /> */}
+        />}
       </div>
     );
   }
 }
-/*   
+ 
 
 - <Route
             path='/'
