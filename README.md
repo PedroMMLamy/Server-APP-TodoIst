@@ -98,11 +98,26 @@ module.exports = User;
 ```
 
 
-# Links:
+<br>
 
-Trello
-Trello board
+## Links
 
-# Git:
-Server Repository Link
-Client Repository Link
+### Trello/Kanban
+
+[Trello]()
+
+### Git
+
+The url to your repository and to your deployed project
+
+[Client repository Link]()
+
+[Server repository Link]()
+
+[Deployed App Link](http://heroku.com)
+
+### Slides
+
+The url to your presentation slides
+
+[Slides Link](http://slides.com)
