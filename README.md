@@ -104,15 +104,15 @@ module.exports = User;
 
 ### Trello/Kanban
 
-[Trello]()
+[Trello](https://trello.com/b/awnRyXFw/todoist)
 
 ### Git
 
 The url to your repository and to your deployed project
 
-[Client repository Link]()
+[Client repository Link](https://github.com/PedroMMLamy/Client-APP-TodoIst)
 
-[Server repository Link]()
+[Server repository Link](https://github.com/PedroMMLamy/Server-APP-TodoIst)
 
 [Deployed App Link](http://heroku.com)
 
