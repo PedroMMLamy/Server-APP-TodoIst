@@ -102,19 +102,23 @@ Task Category (Professional/Personal)
 
 # Models:
 
-``` To Do Model: 
+- To Do Model:
+
+```  
  
 const mongoose = require("mongoose");
 const Todo = mongoose.Schema({
   text: {
     type: String,
   },
+  user_id:String,
 });
 module.exports = mongoose.model("Todo", Todo);
 ```
 
+- User Model:
 
-``` User Model:
+``` 
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
@@ -131,8 +135,6 @@ const userSchema = new Schema({
 const User = mongoose.model('User', userSchema);
 module.exports = User;
 ```
-
-
 
 # Links:
 
