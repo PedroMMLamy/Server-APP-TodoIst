@@ -1,7 +1,7 @@
 # Server-APP-TodoIst
 # Server APP TodoIst - Project 3 Repository II
 
-**TODOIST - Read Me - Client**
+**TODOIST - Read Me - Server**
 
 
 # Description:
